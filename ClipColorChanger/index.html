@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clip Color Changer — One-click label colors for Adobe After Effects and Premiere Pro" />
+    <title>Clip Color Changer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<main class="panel" role="main">
+
+    <!-- ── Header ── -->
+    <header class="header" aria-label="Panel header">
+        <span class="header__title">Clip Color Changer</span>
+        <span class="app-badge" id="appBadge" title="Host application">…</span>
+    </header>
+
+    <!-- ── Color Grid ── -->
+    <section aria-label="Label color palette">
+        <p class="grid-label">Label Colors</p>
+        <div class="color-grid" id="colorGrid" role="group" aria-label="Adobe label color swatches">
+            <!-- Buttons injected by main.js -->
+        </div>
+    </section>
+
+    <div class="divider" role="separator"></div>
+
+    <!-- ── Footer ── -->
+    <footer class="footer" aria-label="Panel footer">
+        <span class="footer__hint">
+            Select layers or clips, then click a color
+        </span>
+    </footer>
+
+</main>
+
+<!-- ── Toast ── -->
+<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<!-- ── Scripts ── -->
+<script src="./js/CSInterface.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
