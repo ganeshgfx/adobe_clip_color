@@ -25,25 +25,24 @@
         { index: 16, name: "Dark Green", hex: "#3C8C3C" }
     ];
 
-    /* ── Premiere Pro label colors — matched to Premiere's actual display ── */
+    /* ── Premiere Pro label colors — 16 colors matching Premiere's Label menu ── */
     var LABELS_PPRO = [
-        { index: 0, name: "None", hex: "#555555" },
-        { index: 1, name: "Violet", hex: "#7B68C8" },  // muted purple
-        { index: 2, name: "Iris", hex: "#6888C0" },  // slate blue
-        { index: 3, name: "Caribbean", hex: "#38C0A8" },  // bright teal
-        { index: 4, name: "Lavender", hex: "#B898D8" },  // light lilac
-        { index: 5, name: "Cerulean", hex: "#4890C8" },  // medium blue
-        { index: 6, name: "Forest", hex: "#488848" },  // dark green
-        { index: 7, name: "Rose", hex: "#C86878" },  // dusty rose/salmon
-        { index: 8, name: "Mango", hex: "#E09040" },  // amber orange
-        { index: 9, name: "Purple", hex: "#9050B8" },  // medium purple
-        { index: 10, name: "Blue", hex: "#4878C8" },  // clear blue
-        { index: 11, name: "Teal", hex: "#308898" },  // steel teal
-        { index: 12, name: "Magenta", hex: "#C84890" },  // pink-magenta
-        { index: 13, name: "Tan", hex: "#C8A850" },  // golden tan
-        { index: 14, name: "Green", hex: "#48A848" },  // medium green
-        { index: 15, name: "Brown", hex: "#886038" },  // warm brown
-        { index: 16, name: "Yellow", hex: "#D0C040" }   // golden yellow
+        { index: 0, name: "Violet", hex: "#7055A8" },  // grape purple
+        { index: 1, name: "Iris", hex: "#6878B4" },  // steel blue-gray
+        { index: 2, name: "Caribbean", hex: "#30BB54" },  // vivid grass green
+        { index: 3, name: "Lavender", hex: "#A888CC" },  // light muted purple
+        { index: 4, name: "Cerulean", hex: "#4888C8" },  // medium clear blue
+        { index: 5, name: "Forest", hex: "#5A7840" },  // dark olive green
+        { index: 6, name: "Rose", hex: "#C83030" },  // brick red
+        { index: 7, name: "Mango", hex: "#D87530" },  // amber orange
+        { index: 8, name: "Purple", hex: "#7838B0" },  // medium purple
+        { index: 9, name: "Blue", hex: "#3868C8" },  // clear bright blue
+        { index: 10, name: "Teal", hex: "#2898A8" },  // teal cyan
+        { index: 11, name: "Magenta", hex: "#C83888" },  // hot fuchsia pink
+        { index: 12, name: "Tan", hex: "#C0A058" },  // warm golden tan
+        { index: 13, name: "Green", hex: "#48A838" },  // medium green
+        { index: 14, name: "Brown", hex: "#886038" },  // warm brown
+        { index: 15, name: "Yellow", hex: "#C8B830" }   // golden yellow
     ];
 
     /* ── State ───────────────────────────────────────────────── */
